@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EasyBuild
 
-## Getting Started
+Plataforma web para criação, compartilhamento e organização de builds, runas, estratégias e guias para jogos.
 
-First, run the development server:
+## Objetivo
+
+O EasyBuild foi criado para permitir que jogadores encontrem e compartilhem builds de forma simples, rápida e organizada.
+
+## Funcionalidades
+
+- Sistema de builds
+- Organização por categorias
+- Interface moderna
+- Estrutura escalável
+- Frontend em Next.js
+- Design responsivo
+
+## Tecnologias
+
+- Next.js
+- TypeScript
+- React
+- CSS
+- Node.js
+
+## Como executar
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/loamysilva/easybuild.git
+```
+
+Entre na pasta:
+
+```bash
+cd easybuild
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Roadmap
 
-## Learn More
+- [ ] Sistema de login
+- [ ] Perfis de usuário
+- [ ] Comentários
+- [ ] Likes e reputação
+- [ ] Upload de imagens
+- [ ] Builds favoritas
+- [ ] Pesquisa avançada
+- [ ] Sistema de tags
+- [ ] Ranking de builds
 
-To learn more about Next.js, take a look at the following resources:
+## Autor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Loamy Soares
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projeto open-source para estudos e desenvolvimento pessoal.
